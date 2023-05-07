@@ -2,13 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #B3B6B7, #ECF0F1 );
+  background: linear-gradient(to bottom, #ECF0F1, white );
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 header {
-  background-color:  #B3B6B7;
+  background-color: #ECF0F1;
   color: white;
   padding: 20px;
 }
