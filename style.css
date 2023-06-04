@@ -2,12 +2,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+  background: linear-gradient(to bottom, white, white );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
-  background-color: #333;
-  color: white;
+  background-color: grey;
+  color: black;
   padding: 20px;
 }
 
@@ -32,8 +34,11 @@ nav li:last-child {
 
 nav a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
+  font-style: italic;
+
+
 }
 
 .container {
@@ -42,50 +47,14 @@ nav a {
   padding: 20px;
 }
 
-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 section h2 {
   margin-top: 0;
 }
 
-section p {
-  margin-bottom: 0;
-}
-
 footer {
-  background-color: #ECF0F1;
-  color: #333;
+  background-color:#ECF0F1;
+  color: #fff;
   padding: 20px;
   text-align: center;
-}
-
-/* Microinteractions */
-section:not(:target) {
-  opacity: 0.5;
-}
-
-section:target {
-  animation: popOut 0.3s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  opacity: 1;
-}
-
-@keyframes popOut {
-  0% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 
